@@ -1,0 +1,832 @@
+/*-------------banner for used cars-------------*/
+.usedcarsServices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 11rem;
+    background-image: url("image/banner-5.png"); 
+    width: 100%;
+    height: 40vh;
+    border-top: 1px solid #0b0e0d;
+    background-size: cover;
+    background-position: center;
+}
+.usedcarsServices h4{
+    color: var(--yellow);
+    font-size: 20px;
+}
+.usedcarsServices h2{
+    color: #fff;
+    font-size: 35px;
+    padding: 10px 0;
+    text-decoration-line: overline;
+}
+.usedcarsServices span{
+    color: #ff0000;
+    font-size: 35px;
+}
+.usedcarsServices i{
+    color: var(--yellow); 
+}
+
+/*-------------banner for support-------------*/
+.suppportServices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 11rem;
+    background-image: url("image/banner-6.png"); 
+    width: 100%;
+    height: 40vh;
+    border-top: 1px solid #0b0e0d;
+    background-size: cover;
+    background-position: center;
+}
+.suppportServices h4{
+    color: var(--yellow);
+    font-size: 20px;
+}
+.suppportServices h2{
+    color: #fff;
+    font-size: 35px;
+    padding: 10px 0;
+    text-decoration-line: overline;
+}
+.suppportServices span{
+    color: #ff0000;
+    font-size: 35px;
+}
+.suppportServices i{
+    color: var(--yellow); 
+}
+/*-------------banner for parts repair-------------*/
+.partsrepairService{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 11rem;
+    background-image: url("image/banner-12.png"); 
+    width: 100%;
+    height: 40vh;
+    border-top: 1px solid #0b0e0d;
+    background-size: cover;
+    background-position: center;
+}
+.partsrepairService h4{
+    color: var(--yellow);
+    font-size: 20px;
+}
+.partsrepairService h2{
+    color: #fff;
+    font-size: 35px;
+    padding: 10px 0;
+    text-decoration-line: overline;
+}
+.partsrepairService span{
+    color: var(--light-blue);
+    font-size: 17px;
+  
+}
+.partsrepairService i{
+    color: var(--yellow); 
+    
+}
+/*-------------banner for car insurance-------------*/
+.insuranceServices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 11rem;
+    background-image: url("image/banner-8.png"); 
+    width: 100%;
+    height: 40vh;
+    border-top: 1px solid #0b0e0d;
+    background-size: cover;
+    background-position: center;
+}
+.insuranceServices h4{
+    color: var(--yellow);
+    font-size: 20px;
+}
+.insuranceServices h2{
+    color: #fff;
+    font-size: 35px;
+    padding: 10px 0;
+    text-decoration-line: overline;
+}
+.insuranceServices span{
+    color: var(--light-blue);
+    font-size: 35px;
+}
+.insuranceServices i{
+    color: var(--yellow);    
+}
+/*-------------banner for battery placement-------------*/
+.batteryService{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 11rem;
+    background-image: url("image/banner-11.png"); 
+    width: 100%;
+    height: 40vh;
+    border-top: 1px solid #0b0e0d;
+    background-size: cover;
+    background-position: center;
+}
+.batteryService h4{
+    color: var(--yellow);
+    font-size: 20px;
+}
+.batteryService h2{
+    color: #fff;
+    font-size: 35px;
+    padding: 10px 0;
+    text-decoration-line: overline;
+}
+.batteryService span{
+    color: var(--light-blue);
+    font-size: 17px;
+}
+.batteryService i{
+    color: var(--yellow); 
+}
+/*-------------banner for OIL CHANGE-------------*/
+.oilService{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 11rem;
+    background-image: url("image/banner-9.png"); 
+    width: 100%;
+    height: 60vh;
+    border-top: 1px solid #0b0e0d;
+    background-size: cover;
+    background-position: center;
+}
+.oilService h4{
+    color: var(--yellow);
+    font-size: 20px;
+}
+.oilService h2{
+    color: #fff;
+    font-size: 35px;
+    padding: 10px 0;
+   
+}
+.oilService span{
+    color: rgb(255, 0, 0);
+    font-size: 35px;
+}
+.oilService i{
+    color: var(--yellow);  
+}
+
+.oilService .center-h {
+    display: flex; 
+    justify-content: center;
+  }
+
+.oilService .center-v {
+    display: flex;
+    align-items: center;
+}
+.oilService .h-500 {
+    height: 500;
+}
+/*-------------services styling for information and more-------------*/
+.servicesInfo {
+    margin-top: 4%; 
+    align-content: left;
+    margin: auto;
+    padding: 10px;
+    padding:2rem 9%;
+}
+.servicesInfo h2{
+    font-size: 2.2rem;
+    border-bottom: 3px solid #98DAD9;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    color: #2E424D; 
+}
+.servicesInfo h4{
+    font-size: 1.7rem;
+    margin: 0 auto;
+    margin-bottom: 0.5%;
+}
+.servicesInfo p{
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    text-align: justify;
+}
+/*-------------Services styling, hovering and transistion -------------*/
+
+.container-box{
+margin: auto;
+height: 700px;
+width: 800px;
+margin-top: 2%; 
+margin-bottom: 2%;
+border-radius: .5rem;
+box-shadow: var(--box-shadow);
+border:var(--border);
+padding: 10px;
+}
+/*About the page */
+.about {
+    margin-top: 4%; 
+    align-content: left;
+    margin: auto;
+    padding: 10px;
+    padding:2rem 9%;
+}
+.about h2{
+    font-size: 2.2rem;
+    border-bottom: 3px solid #98DAD9;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    color: #2E424D; 
+}
+.about h4{
+    font-size: 1.7rem;
+    margin: 0 auto;
+    margin-bottom: 0.5%;
+    text-align: justify;
+}
+.about p{
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 0.5%;
+    text-align: justify;
+}
+/* title heading for the box */
+.container-box h3{
+font-size: 2.2rem;
+text-align: center;
+margin-bottom: 3%;
+color: #2E424D;
+font-weight: bolder;
+}  
+/*------------ design within the unselected box (select section) ------------ */
+.container-box form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1px;
+    justify-content: space-between;   
+}
+
+.container-box form select{
+    border-radius: 0.5rem;
+    border: var(--border);
+    padding:1px;
+    font-size: 10px   
+}
+/* design inside the selected box  */
+.container-box form select option{
+    font-size: 11px;
+    color: #2E424D;; 
+}
+
+.container-box form h4{
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+/*------------ more (select1 section) ------------ */
+.container-box  .select1{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 1px;
+    margin-top: 3%;
+    margin-right: 15px;   
+}
+.container-box  .select1 h4{
+    font-size: 15px  
+}
+.container-box .select1 .select-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+margin-inline: 20px;
+margin-right: 15px;
+}
+.container-box .select1 select{
+    border-radius: 0.5rem;
+    border: var(--border);
+    padding: 5px;
+    font-size: 11px   
+}
+.container-box .select1 select option{
+    font-size: 11px;
+    color: #2E424D;
+}
+
+
+/*------------ more (select2 section) ------------ */
+
+/*------------ design the city, ownership, crn, price.E selext bow  ------------*/
+.container-box .user-details{
+    margin-left: 25px;
+}
+.container-box form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ form .user-details .input-box{
+    margin-bottom: 30px;
+}  
+
+ .user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.user-details .input-box input{
+    height: 35px;
+    width: 700px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.container-box .user-details .btn2{
+    height: 50px;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+
+
+/*-------------------------- 24/7 support services-------------------------- */
+.container-box6{
+    margin: auto;
+    height: 550px;
+    width: 800px;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    padding: 10px;
+}
+.container-box6 .user-details{
+    margin-left: 25px; 
+}
+.container-box6 form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+ form .user-details .input-box{
+    margin-bottom: 30px;
+}  
+
+ .user-details .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.user-details .input-box input{
+    height: 35px;
+    width: 700px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.user-details .select-box2 .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.container-box6 .user-details .select-box2{
+    margin-right: auto;
+    padding-left: 0;
+}
+.container-box6 .user-details .select-box2 select{
+    height: 35px;
+    width: 700px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.container-box6 .user-details .select-box2 option{
+    font-size: 15px;
+}
+.container-box6 .user-details textarea{
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/*-------------------------- 24/7 support second section */
+.servicesInfo6 .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+.servicesInfo6 .box-container .box h2{
+    font-size: 2.2rem;
+    border-bottom: 3px solid #98DAD9;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    color: #2E424D; 
+}
+.servicesInfo6 .box-container .box h4{
+    font-size: 1.7rem;
+    margin: 0 auto;
+    margin-bottom: 0.5%;
+}
+.servicesInfo6 .box-container .box p{
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    text-align: justify;
+}
+.servicesInfo6 .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    padding:1rem 0;
+    color:var(--light-color);
+}
+.servicesInfo6  .box-container .box a i{
+    padding-right: .5rem;
+    color: var(--light-blue);
+}
+.servicesInfo6  .box-container .box a ion-icon{
+    color: var(--light-blue);
+    vertical-align: bottom;
+    font-size: 20px;
+}
+.servicesInfo6  .box-container .box a:hover{
+    color: var(--dark-blue);
+    text-decoration: underline;
+}
+.servicesInfo6  .box-container .box a:hover i{
+    color: var(--dark-blue);
+}
+.servicesInfo6  .box-container .box a:hover ion-icon{
+    color: var(--dark-blue);
+}
+/*-------------------------- parts repair services services-------------------------- */
+.container-box2{
+    margin: auto;
+    height: 225px;
+    width: 1100px;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    padding: 10px;
+}
+/* title heading for the box */
+.container-box2 h3{
+    font-size: 2.2rem;
+    text-align: left;
+    color: #2E424D;
+    font-weight: bolder; 
+    padding-left: 20px;
+}  
+.container-box2 p{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 2%;
+    color: #2E424D;
+    font-weight: normal; 
+    padding-left: 20px;
+}  
+.container-box2 form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    justify-content: space-between;   
+}
+
+.container-box2 form select{
+    border-radius: 0.5rem;
+    border: var(--border);
+    padding:1px;
+    font-size: 10px   
+}
+/* design inside the selected box  */
+.container-box2 form select option{
+    font-size: 13px;
+    color: #2E424D;; 
+}
+.container-box2 form h4{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.container-box2 form button{
+    font-size: 20px;
+    margin-right: 2%;
+    align-content: center;
+}
+
+.servicesInfo2 .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+.servicesInfo2  h1{
+    font-size: 3.0rem;
+    border-bottom: 3px solid #98DAD9;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    color: #2E424D; 
+}
+.servicesInfo2 .box-container .box{
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    text-align: center;
+}
+.servicesInfo2 .box-container .box img{
+    height: 15rem; 
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+.servicesInfo2 .box-container .box:hover img{
+    transform: scaleX(1.2) scaleY(1.2); 
+}
+.servicesInfo2 .box-container .box h3{
+    font-size: 2.0rem;
+    border-bottom: 1px solid #98DAD9;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    color: #2E424D; 
+}
+/*-------------------------- Car Insurance services-------------------------- */
+.container-box3{
+    margin: auto;
+    height: 225px;
+    width: 1100px;
+    margin-top: 2%; 
+    margin-bottom: 2%;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    padding: 10px;
+}
+/* title heading for the box */
+.container-box3 h3{
+    margin-top: 2%;
+    font-size: 2.2rem;
+    text-align: left;
+    color: #2E424D;
+    font-weight: bolder; 
+    padding-left: 20px;
+}  
+.container-box3 p{
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 2%;
+    color: #2E424D;
+    font-weight: normal; 
+    padding-left: 20px;
+}  
+.container-box3 form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    justify-content: space-between;   
+}
+
+.container-box3 form select{
+    border-radius: 0.5rem;
+    border: var(--border);
+    padding:1px;
+    font-size: 10px   
+}
+/* design inside the selected box  */
+.container-box3 form select option{
+    font-size: 13px;
+    color: #2E424D;; 
+}
+.container-box3 form h4{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.servicesInfo3 .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+.servicesInfo3  h1{
+    font-size: 3.0rem;
+    border-bottom: 3px solid #98DAD9;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    color: #2E424D; 
+}
+.servicesInfo3 .box-container .box{
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    text-align: left;
+}
+.servicesInfo3 .box-container .box h2{
+    font-size: 2.2rem;
+    border-bottom: 3px solid #98DAD9;
+    margin: 0 auto;
+    margin-bottom: 8%;
+    color: #2E424D; 
+}
+.servicesInfo3 .box-container .box h4{
+    font-size: 1.7rem;
+    margin: 0 auto;
+    margin-bottom: 0.5%;
+}
+
+/*-------------------------- Battery replacement services-------------------------- */
+.servicesInfo3 .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+.servicesInfo3  h1{
+    font-size: 3.0rem;
+    border-bottom: 3px solid #98DAD9;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    color: #2E424D; 
+}
+.servicesInfo3 .box-container .box{
+    padding:2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    text-align: center;
+}
+.servicesInfo3 .box-container .box img{
+    height: 15rem; 
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+.servicesInfo3 .box-container .box:hover img{
+    transform: scaleX(1.2) scaleY(1.2); 
+}
+.servicesInfo3 .box-container .box h3{
+    font-size: 2.2rem;
+    margin: 0 auto;
+    color: #2E424D; 
+    font-style: italic;
+    text-align: left;
+}
+.servicesInfo3 .box-container .box p{
+    font-size: 1.2rem;
+    margin: 0 auto;
+    margin-top: 5%;
+    color: #2E424D; 
+    text-align: left;
+}
+
+/*-------------------------- Oil Change services  -------------------------- */
+
+
+
+/*-------------------------- Oil Change services second section */
+.servicesInfo5 .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+.servicesInfo5 .box-container .box h2{
+    font-size: 2.2rem;
+    border-bottom: 3px solid #98DAD9;
+    margin: 0 auto;
+    margin-bottom: 2%;
+    color: #2E424D; 
+}
+.servicesInfo5 .box-container .box h4{
+    font-size: 1.7rem;
+    margin: 0 auto;
+    margin-bottom: 5.5%;
+    font-weight: normal;
+}
+.servicesInfo5 .box-container .box p{
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    text-align: justify;
+}
+.servicesInfo5 .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    padding:1rem 0;
+    color:var(--light-color);
+}
+.servicesInfo5  .box-container .box a i{
+    padding-right: .5rem;
+    color: var(--light-blue);
+}
+.servicesInfo5  .box-container .box a ion-icon{
+    color: var(--light-blue);
+    vertical-align: bottom;
+    font-size: 20px;
+}
+.servicesInfo5  .box-container .box a:hover{
+    color: var(--dark-blue);
+    text-decoration: underline;
+}
+.servicesInfo5  .box-container .box a:hover i{
+    color: var(--dark-blue);
+}
+.servicesInfo5  .box-container .box a:hover ion-icon{
+    color: var(--dark-blue);
+}
+.servicesInfo5 .box-container .box span{
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+    text-align: justify;
+    font-weight: bolder;
+}
+.servicesInfo5 .box-container .box form{
+    border-radius: 5rem;
+    box-shadow: var(--box-shadow);
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}  
+.servicesInfo5 .box-container .box form input[type="text"]{
+    height: 100%;
+    width:100%;
+    padding:0 1rem;
+    font-size: 1.6rem;
+    color:var(--black);
+    text-transform: none;
+}
+
+
+
+/*-----Centering buttons -----*/
+.container-box2 .center-h {
+    display: flex; /* or display:grid */
+    justify-content: center;
+  }
+  .container-box2 .center-v {
+    display: flex;
+    align-items: center;
+  }
+  .container-box2 .h-500 {
+    height: 500;
+}
+.container-box3 .center-h {
+    display: flex; /* or display:grid */
+    justify-content: center;
+  }
+  .container-box3 .center-v {
+    display: flex;
+    align-items: center;
+  }
+  .container-box3 .h-500 {
+    height: 500;
+}
+.servicesInfo .center-h {
+    display: flex; /* or display:grid */
+    justify-content: center;
+  }
+  .servicesInfo .center-v {
+    display: flex;
+    align-items: center;
+  }
+  .servicesInfo .h-500 {
+    height: 500;
+}
+.servicesInfo {
+    border-bottom: 1px solid #98DAD9;
+}

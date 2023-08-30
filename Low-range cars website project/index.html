@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carmaniax Low-range car shop</title>
+
+    <!--swiper plugins from css bundle-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!--Icons links-->
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="MainStyle.css" />
+  </head>
+  <body>
+    <!--------------- header section menu--------------->
+
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a href="#" class="logo"> <span>car</span>Maniax </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#vehicles">vehicles</a>
+        <a href="#services">services</a>
+        <a href="#featured">featured</a>
+        <a href="#reviews">reviews</a>
+        <a href="#contacts">contacts</a>
+
+        <li class="cart">
+          <a href="CheckOutpage.html">
+            <ion-icon name="basket"></ion-icon>Cart<span>0</span>
+          </a>
+        </li>
+      </nav>
+
+      <div id="login-btn">
+        <button class="btn">login</button>
+        <i class="far fa-user"></i>
+      </div>
+    </header>
+
+    <!--------------- login form --------------->
+
+    <div class="login-form-container">
+      <span id="close-login-form" class="fas fa-times"></span>
+
+      <form action="">
+        <h3>user login</h3>
+        <input type="email" placeholder="email" class="box" />
+        <input type="password" placeholder="password" class="box" />
+        <p>forget your password <a href="#">click here</a></p>
+        <input type="submit" value="login" class="btn" />
+        <p>or login with</p>
+        <div class="buttons">
+          <a
+            href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser "
+            class="btn"
+            target="_blank"
+            rel="noopener"
+          >
+            google
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            class="btn"
+            target="_blank"
+            rel="noopener"
+          >
+            facebook
+          </a>
+        </div>
+        <p>don't have an account <a href="#">create one</a></p>
+      </form>
+    </div>
+    <!---------------Home section --------------->
+    <section class="home" id="home">
+      <h1 data-speed="-2" class="home-parallax">
+        A car for <span>everyone</span>
+      </h1>
+      <img
+        data-speed="5"
+        class="home-parallax"
+        src="image/images/home-img.png"
+        alt=""
+      />
+      <a data-speed="7" href="ExploreCars.html" class="btn home-parallax"
+        >explore cars <i class="fa fa-chevron-circle-right"></i
+      ></a>
+    </section>
+
+    <!----------------icon section and containers ---------------->
+
+    <section class="icons-container">
+      <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+          <h3>5+</h3>
+          <p>branches</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>331+</h3>
+          <p>cars sold</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+          <h3>301+</h3>
+          <p>happy clients</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>10+</h3>
+          <p>new cars</p>
+        </div>
+      </div>
+    </section>
+
+    <!----------------Popular vechicles section and selections ---------------->
+
+    <section class="vehicles" id="vehicles">
+      <h1 class="heading">popular <span>Cars</span></h1>
+      <div class="swiper vehicles-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img
+              src="image/car-7.png"
+              alt="Suzuki burgundy red pearl image"
+              height="200"
+            />
+            <div class="content">
+              <h3>Suzuki APV</h3>
+              <div class="price"><span>price : </span> ₱651,000/-</div>
+              <p>
+                GA 1.6 MT
+                <span class="fas fa-circle"></span> 2016
+                <span class="fas fa-circle"></span> manual
+                <span class="fas fa-circle"></span> gasoline
+                <span class="fas fa-circle"></span> 127mph
+              </p>
+              <!--       <a href="SuzukiBurgundy.html" class="btn">Preview</a>  -->
+              <a
+                class="btn"
+                onclick="window.location.href='SuzukiBurgundy.html';"
+              >
+                Preview</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img
+              src="image/car-8.png"
+              alt="White pearl Toyota Vios image"
+              height="230"
+            />
+            <div class="content">
+              <h3>Toyota Vios</h3>
+              <div class="price"><span>price : </span> ₱753,000/-</div>
+              <p>
+                1.3 XE CVT
+                <span class="fas fa-circle"></span> 2020
+                <span class="fas fa-circle"></span> manual or CVT
+                <span class="fas fa-circle"></span> gasoline
+                <span class="fas fa-circle"></span> 123mph
+              </p>
+              <a href="CheckOut.html" class="btn">Preview</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img
+              src="image/car-9.png"
+              alt="Glowing silver Hyundai Reina image"
+              height="250"
+            />
+            <div class="content">
+              <h3>Hyundai Reina</h3>
+              <div class="price"><span>price : </span> ₱733,000/-</div>
+              <p>
+                1.4 GL AT
+                <span class="fas fa-circle"></span> 2019
+                <span class="fas fa-circle"></span> manual or automatic
+                <span class="fas fa-circle"></span> gasoline
+                <span class="fas fa-circle"></span> 132mph
+              </p>
+              <a href="CheckOut.html" class="btn">Preview</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img
+              src="image/car-10.png"
+              alt="Bluish pearl Chevrolet Spark image"
+              height="250"
+            />
+            <div class="content">
+              <h3>Chevrolet Spark</h3>
+              <div class="price"><span>price : </span> ₱734,888/-</div>
+              <p>
+                1.4 CVT
+                <span class="fas fa-circle"></span> 2018
+                <span class="fas fa-circle"></span> manual or CVT
+                <span class="fas fa-circle"></span> gasoline
+                <span class="fas fa-circle"></span> 128mph
+              </p>
+              <a href="CheckOut.html" class="btn">Preview</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img
+              src="image/car-11a.png"
+              alt="Majestic red Mitsubishi Mirage image"
+              height="250"
+            />
+            <div class="content">
+              <h3>Mitsubishi Mirage</h3>
+              <div class="price"><span>price : </span> ₱711,000/-</div>
+              <p>
+                GLX MT
+                <span class="fas fa-circle"></span> 2020
+                <span class="fas fa-circle"></span> manual or cvt
+                <span class="fas fa-circle"></span> gasoline
+                <span class="fas fa-circle"></span> 100mph
+              </p>
+              <a href="CheckOut.html" class="btn">Preview</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img
+              src="image/car-12.png"
+              alt="Galaxy black Nissan Almera image"
+              height="250"
+            />
+            <div class="content">
+              <h3>Nissan Almera</h3>
+              <div class="price"><span>price : </span> ₱728,000/-</div>
+              <p>
+                1.0 EL Turbo MT
+                <span class="fas fa-circle"></span> 2019
+                <span class="fas fa-circle"></span> manual or CVT
+                <span class="fas fa-circle"></span> Gasoline
+                <span class="fas fa-circle"></span> 160mph
+              </p>
+              <a href="CheckOut.html" class="btn">Preview</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!----------------------services offer sections---------------------->
+
+    <section class="services" id="services">
+      <h1 class="heading">our <span>services</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <h3>Sell Used Cars</h3>
+          <p>
+            Experience a hassle-free journey of selling your used car at the
+            best price!
+          </p>
+          <a href="ServicesUsedCars.html" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-tools"></i>
+          <h3>parts repair</h3>
+          <p>We offers the most complete automotive services under one roof.</p>
+          <a href="ServicesPartsRepair.html" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-car-crash"></i>
+          <h3>car insurance</h3>
+          <p>
+            We compiles some of the most reputable and dependable insurance
+            companies.
+          </p>
+          <a href="ServicesCarInsurance.html" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-car-battery"></i>
+          <h3>battery replacement</h3>
+          <p>
+            Have a Battery replacement Service performed when a visual
+            inspection of the battery shows dents or corrosion.
+          </p>
+          <a href="ServicesBatteryPlacement.html" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-gas-pump"></i>
+          <h3>Oil change</h3>
+          <p>
+            The age-old tale handed down from parent to child: Change your oil
+            every 3,000 miles. it's time to take another look at oil change.
+          </p>
+          <a href="ServiceOilChange.html" class="btn"> read more</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 support</h3>
+          <p>
+            Connect with verified mechanics in minutes, 24/7. Enjoy on-call
+            assistance for help with a flat tire, lock-out, battery, collision,
+            etc.
+          </p>
+          <a href="ServicesSupport.html" class="btn"> read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!----------------Feutured vechicles section and selections---------------->
+
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>featured</span> cars</h1>
+
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img
+              src="image/car-a1.png"
+              alt="Sizzle orange Suzuki S-presso image"
+            />
+            <div class="content">
+              <h3>Suzuki S-PRESSO</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">₱523,000/-</div>
+              <a href="SuzukiS-PRESSO.html" class="btn">Preview</a>
+              <a href="#feutured" class="btn2">
+                <i class="fa fa-cart-plus"></i>Add Cart</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img
+              src="image/car-2.png"
+              alt="Arctic White pearl Suzuki Dzire image"
+            />
+            <div class="content">
+              <h3>Suzuki Dzire</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">₱559,900/-</div>
+              <a href="#" class="btn">Preview</a>
+              <a href="#feutured" class="btn2">
+                <i class="fa fa-cart-plus"></i>Add Cart</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/car-3.png" alt="Sizzle orange Toyota Wigo image" />
+            <div class="content">
+              <h3>Toyota Wigo</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">₱568,000/-</div>
+              <a href="#" class="btn">Preview</a>
+              <a href="#feutured" class="btn2">
+                <i class="fa fa-cart-plus"></i>Add Cart</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/car-4a.png" alt="Clear white Kia Picanto image" />
+            <div class="content">
+              <h3>Kia Picanto</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">₱590,000/-</div>
+              <a href="#" class="btn">Preview</a>
+              <a href="#feutured" class="btn2">
+                <i class="fa fa-cart-plus"></i>Add Cart</a
+              >
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="image/car-5.png" alt="Carnival Red Honda Brio image" />
+            <div class="content">
+              <h3>Honda Brio</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">₱601,000/-</div>
+              <a href="#" class="btn">Preview</a>
+              <a href="#feutured" class="btn2">
+                <i class="fa fa-cart-plus"></i>Add Cart</a
+              >
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img
+              src="image/car-6.png"
+              alt="Blue metallic Suzuki Celerio image"
+            />
+            <div class="content">
+              <h3>Suzuki Celerio</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <div class="price">₱628,000/-</div>
+              <a href="#" class="btn">Preview</a>
+              <a href="#featured" class="btn2">
+                <i class="fa fa-cart-plus"></i>Add Cart</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!----------------Newsletter section "subscribe"---------------->
+
+    <section class="newsletter">
+      <h3>Sign Up for latest updates</h3>
+      <p>
+        Get E-mail updates about our deals, exciting services and
+        <span> special offers </span>
+      </p>
+
+      <form action="">
+        <input type="email" placeholder="enter your email" />
+        <input type="submit" value="subscribe" onclick="SendMessage2()" />
+      </form>
+    </section>
+
+    <!----------------Client review section ---------------->
+
+    <section class="reviews" id="reviews">
+      <h1 class="heading">client's <span>review</span></h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/images/pic-1.jpg" alt="Client Profile Picture" />
+            <div class="content">
+              <p>
+                I had a great experience at CarManiax, Masbate. Found the exact
+                car I wanted in tip-top shape at a fair price with excellent
+                customer service and attention-to-detail. I highly recommend Car
+                shop.
+              </p>
+              <h3>Len-len</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/images/pic-2.png" alt="Client Profile Picture" />
+            <div class="content">
+              <p>
+                Amazing service at the service department! Especially from your
+                CarManiax, Manila. The car dealer took care of our cars and
+                provided 5 star service at every step!
+              </p>
+              <h3>Yorme</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/images/pic-3.jpg" alt="Client Profile Picture" />
+            <div class="content">
+              <p>
+                Outstanding service! Very happy with the purchase of my car. I
+                have purchased a few vehicles from here over the years and they
+                have all been reliable. Their 24/7 support service was helpful
+                and answered my questions!
+              </p>
+              <h3>Pac-man</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/images/pic-4.JPG" alt="Client Profile Picture" />
+            <div class="content">
+              <p>
+                Great experience, CarManiax was very good and the sale took
+                place very quick and was able to secure transportation 2 days
+                after the purchase. Car got to my home in a timely fashion.
+              </p>
+              <h3>Bong-bong</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/images/pic-5.jpg" alt="Client Profile Picture" />
+            <div class="content">
+              <p>
+                I had a wonderful experience purchasing a used vehicle. The
+                process was stress free and pleasant. Jeth Morado [Car dealer]
+                was very thorough and knowledgeable. He was able to find me a
+                vehicle that suited my needs.
+              </p>
+              <h3>Ka-Leody</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/images/pic-6.jpg" alt="Client Profile Picture" />
+            <div class="content">
+              <p>
+                Buying a car during a pandemic is no easy task, but Kevin Mital
+                at the Manila [CarManiax] made it as easy as can be...
+                Everything was clean and sanitized and up to standards.
+              </p>
+              <h3>Ping-ping</h3>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!----------------Contact section---------------->
+
+    <section class="contact" id="contacts">
+      <h1 class="heading"><span>contact</span> us</h1>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9682781126867!2d121.00641039834598!3d14.600882960792044!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9dd976ededf%3A0xbaaa357c5585b8c2!2sPolytechnic%20University%20of%20the%20Philippines!5e0!3m2!1sen!2sph!4v1656262159780!5m2!1sen!2sph"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="">
+          <h3>get updates from us!</h3>
+          <input type="text" placeholder="your name" class="box" />
+          <input type="email" placeholder="your email" class="box" />
+          <input type="tel" placeholder="subject" class="box" />
+          <textarea
+            placeholder="your message"
+            class="box"
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input
+            type="submit"
+            value="send message"
+            class="btn"
+            onclick="SendMessage()"
+          />
+        </form>
+      </div>
+    </section>
+
+    <!----------------Footer section---------------->
+
+    <section class="footer" id="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>our branches</h3>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Manila </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Bulacan </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Masbate </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Cebu </a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i> Davao </a>
+        </div>
+
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="ExploreCars.html">
+            <i class="fas fa-arrow-right"></i> Cars Available
+          </a>
+          <a href="AboutUs.html">
+            <i class="fas fa-arrow-right"></i> About Us
+          </a>
+          <a href="CheckOutpage.html">
+            <i class="fas fa-arrow-right"></i> Checkout
+          </a>
+          <a href="#services"> <i class="fas fa-arrow-right"></i> Services </a>
+          <a href="#reviews"> <i class="fas fa-arrow-right"></i> reviews </a>
+          <a href="ServicesSupport.html">
+            <i class="fas fa-arrow-right"></i> 24/7 support
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#"> <i class="fas fa-phone"></i> +5335-1777 </a>
+          <a href="#"> <i class="fas fa-phone"></i> +5335-1720 </a>
+          <a href="#"> <i class="fas fa-envelope"></i> Carmaniax@gmail.com </a>
+          <a href="https://www.pup.edu.ph/" target="_blank" rel="noopener">
+            <i class="fas fa-map-marker-alt"></i> Sta.Mesa, Manila - 1016
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener">
+            <i class="fab fa-facebook-f"></i> facebook
+          </a>
+          <a href="https://twitter.com/" target="_blank" rel="noopener">
+            <i class="fab fa-twitter"></i> twitter
+          </a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i> instagram
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin"></i> linkedin
+          </a>
+          <a href="https://www.pinterest.ph/" target="_blank" rel="noopener">
+            <i class="fab fa-pinterest"></i> pinterest
+          </a>
+        </div>
+      </div>
+
+      <div class="credit">
+        <h3><span>car</span>Maniax</h3>
+        <h5>
+          created website project by mr. Ghibee Kevin T. Mital & mr.Jeth Nico T.
+          Morado | Cars: Low-range Cars | all rights reserved
+        </h5>
+      </div>
+    </section>
+
+    <!--custom swiper css bundle-->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--custom js link-->
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+    <!--Icons used-->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </body>
+</html>
