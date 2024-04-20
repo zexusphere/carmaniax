@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+/*      CART PAGE       */
+
+.products-container {
+    max-width: 950px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 170px;
+}
+
+.products-container ion-icon{
+    font-size: 25px;
+    color: #5B8291;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+/*suspicious */
+.container .products-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.product-header{
+    width: 100%;
+    max-width: 950px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 5px solid #98DAD9;
+    margin: 0 auto;
+}
+
+.price{
+    width: 15%;
+  
+    display: flex;
+    align-items:center;
+    font-size: 1.5rem;
+}
+.quantity{
+    width: 15%;
+
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.quantity ion-icon{
+    cursor: pointer;
+}
+.quantity ion-icon:hover{
+    color: #98DAD9;
+}
+.branch{
+    width: 18%;
+
+    display: flex;
+    align-items:center;
+    font-size: 1.5rem;
+}
+.branch p{
+    
+    display: flex;
+    color: #2E424D; ;
+    align-items:center;
+    font-size: 1rem;
+    font-weight: lighter;
+
+}
+.total {
+    width: 12%;
+ 
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.product-title{
+    width: 40%;
+    font-size: 1.5rem;
+    padding:2rem 3rem;
+}
+.product{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #98DAD9;
+}
+.product ion-icon{
+    cursor: pointer;
+}
+.product ion-icon:hover{
+    color: #ff1111;
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 10px 0;
+    border-top: 5px solid #98DAD9;
+ 
+}
+.basketTotalTitle{
+    width: 30%;
+    font-size: 1.7rem;
+   
+}
+.basketTotal{
+    width: 15%;
+    font-size: 1.7rem;
+    text-decoration: underline;
+    
+}
+.btn3{
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding:.8rem 1rem;
+    background:#cccccc;
+    color:#130f40;
+    cursor: pointer;
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.6;
+    
+}
+.btn3:hover{
+    background: #9b0e0e;
+    color:#fff;
+    opacity: 1;
+}

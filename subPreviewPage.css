@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+/*-------------Preview page of each car (designs, position, alignment and styles)-------------*/
+#CarDetails{
+    display: flex;
+    margin-top: 100px;
+}
+
+#CarDetails .suzukiAPV-image{
+    padding:3rem 2rem;
+    width: 45%;
+    margin-right: 50px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+  
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    height: 200px;
+}
+.small-img-col img{
+    height: 100px;
+    border-radius: 0.5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+}
+
+#CarDetails .suzukiAPV-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#CarDetails .suzukiAPV-details h4{
+    padding: 40px 0 20px 0;
+    font-size: 26px; 
+    color: var(--black);
+}
+#CarDetails .suzukiAPV-details h2{
+    font-size: 20px;
+    color: var(--black);
+}
+
+#CarDetails .suzukiAPV-details h5{
+    font-size: 11px;
+    color:#2E424D; 
+}
+#CarDetails .suzukiAPV-details select{
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 1px;
+    margin-right: 10px;
+    border-radius: 0.5rem;
+    border: var(--border);
+    opacity: 0.6;
+}
+#CarDetails .suzukiAPV-details span{
+    line-height: 25px;
+    font-size: 13px;
+    text-align: justify;
+}
